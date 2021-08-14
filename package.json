@@ -1,7 +1,7 @@
 {
-  "name": "hello",
+  "name": "hello_crud",
   "esy": {
-    "build": "dune build -p hello"
+    "build": "dune build -p hello_crud"
   },
   "dependencies": {
     "ocaml": "4.10.x",

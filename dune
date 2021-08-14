@@ -1,6 +1,6 @@
 (executable
- (name hello)
- (public_name hello.exe)
+ (name hello_crud)
+ (public_name hello_crud.exe)
  (libraries opium)
  (preprocess
   (pps ppx_deriving_yojson)))
