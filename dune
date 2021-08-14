@@ -1,0 +1,8 @@
+(executable
+ (name hello)
+ (public_name hello.exe)
+ (libraries opium)
+ (preprocess
+  (pps ppx_deriving_yojson)))
+
+; name of the binary

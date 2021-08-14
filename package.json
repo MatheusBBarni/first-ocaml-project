@@ -1,0 +1,17 @@
+{
+  "name": "hello",
+  "esy": {
+    "build": "dune build -p hello"
+  },
+  "dependencies": {
+    "ocaml": "4.10.x",
+    "@opam/dune": "*",
+    "@opam/opium": "*",
+    "@opam/ppx_deriving_yojson": "*",
+    "@opam/yojson": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*"
+  }
+}
